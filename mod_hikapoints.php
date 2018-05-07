@@ -1,7 +1,7 @@
 <?php
 /**
  * @package	HikaShop Points for Joomla!
- * @version	1.0.0
+ * @version	1.1.0
  * @author	https://github.com/inscriptios
  * @copyright	(C) 2018 inscriptios. All rights reserved.
  * @license	GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
