@@ -17,7 +17,9 @@ if(!include_once(rtrim(JPATH_ADMINISTRATOR,DS).DS.'components'.DS.'com_hikashop'
 
 $hkuser = hikashop_loadUser(true);
 if($hkuser) {
-  $html = JText::sprintf('USERPOINTS_HAVE_X_POINTS', (int)$hkuser->user_points);
+  $html1= JText::sprintf('USERPOINTS_HAVE_X_POINTS', (int)$hkuser->user_points);
+} else {
+  $html2 = JText::_('JERROR_ALERTNOAUTHOR');
 }
 
 require(JModuleHelper::getLayoutPath('mod_hikapoints'));

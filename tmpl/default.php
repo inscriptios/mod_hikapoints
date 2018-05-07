@@ -7,8 +7,12 @@
  * @license	GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 defined('_JEXEC') or die('Restricted access');
-?><?php if(!empty($html)){ ?>
+?><?php if(!empty($html1)){ ?>
 <div id="hikapoints_module_<?php echo $module->id;?>" class="hikapoints_module <?php echo @$module->params['moduleclass_sfx']; ?>">
-<?php echo $html; ?>
+<span class="hikapoints_message"><?php echo $html1; ?></span>
+</div>
+<?php } else { ?>
+<div id="hikapoints_module_<?php echo $module->id;?>" class="hikapoints_module <?php echo @$module->params['moduleclass_sfx']; ?>">
+<span class="hikapoints_need_login"><?php echo $html2; ?></span>
 </div>
 <?php } ?>
