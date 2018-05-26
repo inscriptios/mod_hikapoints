@@ -7,7 +7,7 @@
 	<authorEmail>inscriptios@gmail.com</authorEmail>
 	<authorUrl>https://github.com/inscriptios</authorUrl>
 	<copyright>(C) 2018 inscriptios. All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<description>User_points custom field display for Hikashop</description>
 	<files>
 		<filename>mod_hikapoints.xml</filename>
