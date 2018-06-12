@@ -1,5 +1,7 @@
 # mod_hikapoints
 
+[![Поддержать](https://img.shields.io/badge/%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%94%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8-yellow.svg)](https://yasobe.ru/na/projects_support)
+
 **Russian.**
 
 Модуль для HikaShop, отображающий количество доступных баллов из пользовательского поля user_points
